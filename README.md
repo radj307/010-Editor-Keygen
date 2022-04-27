@@ -17,22 +17,20 @@ It is for **EDUCATIONAL PURPOSES** only.
 
 You **DON'T NEED MSVCRT** to run this program
 
-## How to assemble
-Here are the steps for Assembling
+## Assembling
 
-1. Download [Flat Assembler](http://flatassembler.net/download.php)
+### Pre-Requisites
+- Windows
+- [Flat Assembler](http://flatassembler.net/download.php)
 
-   or
-   
-   If you are on Linux, you may use `sudo apt-get install fasm`
+### Building
 
-2. Assemble using the following command
+ 1. Clone the repository somewhere.
+ 2. Copy `include\win32ax.inc` from the flat assembler directory to the repository.  
+    You should now have `main.asm` and `include/win32ax.inc` in the same directory.
+ 3. Open a terminal in the repository root and run `fasm main.asm`.  
+    You will now have `main.exe`.
 
-   `fasm main.asm`
-
-The current support is for Windows only.
-
-I'll be adding a linux executable soon
 
 ## Screenshot
 
