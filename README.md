@@ -2,6 +2,7 @@
 
 A License Key generator for [010 Editor](http://www.sweetscape.com/download/010editor/).
 Written purely in Assembly
+Confirmed working on v8.0.1; this may not work on newer versions.
 
 ## Warning
 
