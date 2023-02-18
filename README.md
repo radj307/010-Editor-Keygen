@@ -20,19 +20,13 @@ You **DON'T NEED MSVCRT** to run this program
 ## How to assemble
 Here are the steps for Assembling
 
-1. Download [Flat Assembler](http://flatassembler.net/download.php)
+1. Clone the repository `git clone https://github.com/radj307/010-Editor-Keygen`
 
-   or
-   
-   If you are on Linux, you may use `sudo apt-get install fasm`
+2. Create a new directory in the repository `mkdir 010-Editor-Keygen/fasm`
 
-2. Assemble using the following command
+3. Download [Flat Assembler](https://flatassembler.net/download.php) & extract its contents into the `fasm` directory.
 
-   `fasm main.asm`
-
-The current support is for Windows only.
-
-I'll be adding a linux executable soon
+4. Assemble the program with `fasm main.asm`
 
 ## Screenshot
 
